@@ -26,7 +26,8 @@ $ ./split.sh
 After running the script, inspect the current directory and the directory and
 files it created. What does this script do?
 
-Open `split.sh` in your favorite text editor and examine the code.
+Open `split.sh` in your favorite text editor and examine the code. (Some
+questions here about the code that students will answer on Gradescope.)
 
 Look up the usage of `printf` with:
 
@@ -43,7 +44,7 @@ man 3 printf
 
 What is the difference between these two man pages?
 
-Change _one line_ in `split.sh` so that instead of file names
+Change **one line** in `split.sh` so that instead of file names
 
 ```
 0.txt
