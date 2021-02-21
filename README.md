@@ -77,3 +77,14 @@ Implement a different script called `change_permission.sh`. By running
 `change_permission.sh` all files with extension `.txt` in a specified directory
 (which you will define in the script) should have read-only permission for all
 users.
+
+Some hints:
+
+1. You will want to write a `for` loop that goes over every file with extension
+`.txt`. See [here](http://linuxcommand.org/lc3_wss0130.php) for more hints of
+how it might look like.
+
+2. Check the man page of `chmod` to see how to set file permissions.
+
+3. Read about option `-l` in the man page of `ls` to see how to display file
+permissions.
