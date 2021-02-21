@@ -82,12 +82,12 @@ Some hints:
 
 1. You will want to write a `for` loop that goes over every file with extension
 `.txt`. See [here](http://linuxcommand.org/lc3_wss0130.php) for more hints of
-how it might look like.
+what it might look like.
 
 2. Check the man page of `chmod` to see how to set file permissions.
 
 3. Read about option `-l` in the man page of `ls` to see how to display file
-permissions.
+permissions. (This is useful when you test your script.)
 
 Visit the Gradescope assignment associated with this lab to complete the lab.
 You will be asked to answer questions associated with `split.sh` and to submit
