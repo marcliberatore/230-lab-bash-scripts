@@ -1,4 +1,4 @@
-# 230-lab-bash-scripts
+# COMPSCI 230 Spring 2021
 # Simple Bash Scripts
 
 In this lab we will look at an example of a bash script, and implement a
