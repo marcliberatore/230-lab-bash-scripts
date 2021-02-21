@@ -88,3 +88,7 @@ how it might look like.
 
 3. Read about option `-l` in the man page of `ls` to see how to display file
 permissions.
+
+Visit the Gradescope assignment associated with this lab to complete the lab.
+You will be asked to answer questions associated with `split.sh` and to submit
+your `change_permission.sh` file.
