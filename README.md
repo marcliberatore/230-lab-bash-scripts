@@ -50,12 +50,15 @@ Modify **one line** in `split.sh` so that instead of file names
 ```
 0.txt
 1.txt
+2.txt
 ...
 10.txt
 11.txt
+12.txt
 ...
 100.txt
 101.txt
+102.txt
 ...
 ```
 we have
@@ -63,12 +66,15 @@ we have
 ```
 000.txt
 001.txt
+002.txt
 ...
 010.txt
 011.txt
+012.txt
 ...
 100.txt
 101.txt
+102.txt
 ...
 ```
 
