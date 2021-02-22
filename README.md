@@ -76,7 +76,7 @@ Both man pages of `printf` will be helpful here.
 Implement a different script called `change_permission.sh`. By running
 `change_permission.sh` all files with extension `.txt` in a specified directory
 (which you will define in the script) should have read-only permission for all
-users. In addition, the words "READ ONLY" will be appended (use `>>`) to each 
+users. In addition, the string "\*\*\*READ ONLY\*\*\*" will be appended (use `>>`) to each
 `.txt` file as its last line.
 
 Some hints:
