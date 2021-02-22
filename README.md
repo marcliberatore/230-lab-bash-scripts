@@ -17,7 +17,8 @@ In order to run the script `split.sh`, first do the following:
 $ chmod +x split.sh
 ```
 
-Now you can run `split.sh`:
+This will give `split.sh` "execute" permission for all users. Now you can run
+`split.sh`:
 
 ```
 $ ./split.sh
@@ -26,8 +27,8 @@ $ ./split.sh
 After running the script, inspect the current directory and the directory and
 files it created. What does this script do?
 
-Open `split.sh` in your favorite text editor and examine the code. (Some
-questions here about the code that students will answer on Gradescope.)
+Open `split.sh` in your favorite text editor and examine the code. Try to
+understand what each line does as much as you can.
 
 Look up the usage of `printf` with:
 
@@ -44,7 +45,7 @@ man 3 printf
 
 What is the difference between these two man pages?
 
-Change **one line** in `split.sh` so that instead of file names
+Modify **one line** in `split.sh` so that instead of file names
 
 ```
 0.txt
@@ -73,11 +74,11 @@ we have
 
 Both man pages of `printf` will be helpful here.
 
-Implement a different script called `change_permission.sh`. By running
+Now let's implement a different script called `change_permission.sh`. By running
 `change_permission.sh` all files with extension `.txt` in a specified directory
 (which you will define in the script) should have read-only permission for all
-users. In addition, the string "\*\*\*READ ONLY\*\*\*" will be appended (use `>>`) to each
-`.txt` file as its last line.
+users. In addition, the string "\*\*\*READ ONLY\*\*\*" will be appended (use
+`>>`) to each `.txt` file as its last line.
 
 Some hints:
 
