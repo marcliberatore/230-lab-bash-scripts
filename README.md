@@ -25,7 +25,7 @@ $ ./split.sh
 ```
 
 After running the script, inspect the current directory and the directory and
-files it created. What does this script do?
+files the script created. What does this script do?
 
 Open `split.sh` in your favorite text editor and examine the code. Try to
 understand what each line does as much as you can.
