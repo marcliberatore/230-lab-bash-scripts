@@ -8,6 +8,8 @@
 # To create a variable, put a line in the script that contains the name of the
 # variable followed immediately by an equal sign ("="). NO SPACES are allowed.
 # After the equal sign, assign the information to store.
+# The only characters allowed in variable names are [A-Za-z0-9_] (alphanumeric
+# characters and underscore).
 dirname=lines
 extension=.txt
 rm -rf $dirname
