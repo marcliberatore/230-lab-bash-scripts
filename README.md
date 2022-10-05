@@ -1,17 +1,21 @@
-# COMPSCI 230 Spring 2021
+# COMPSCI 230 Computer Systems Principles
 # Simple Bash Scripts
 
 In this lab we will look at an example of a bash script, and implement a
 simple one.
 
-To start working on this lab you must be logged in to the Edlab and in your
-`cs230` directory. From this directory run the command:
+To start working on this lab you must be logged in to the Edlab and in your `cs230` directory, or be in a similar environment on your local machine. 
+
+From this directory run the command:
 
 ```
-$ git clone https://github.com/umass-cs-230/230-lab-bash-scripts
+$ git clone https://github.com/marcliberatore/230-lab-bash-scripts.git
 ```
 
-In order to run the script `split.sh`, first do the following:
+to make a copy of this lab directory, or use [Github Desktop](https://desktop.github.com), or download and decompress a zip file directly from Github to use locally (the green "Code" button has a "Download ZIP" option). 
+
+
+In order to be able to run the script `split.sh`, first do the following:
 
 ```
 $ chmod +x split.sh
@@ -36,7 +40,7 @@ Look up the usage of `printf` with:
 man printf
 ```
 
-Recall that in Project 2, you are asked to read up on the documentation of
+Recall that in Project 2, you were asked to read up on the documentation of
 `printf` with:
 
 ```
